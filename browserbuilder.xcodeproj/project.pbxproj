@@ -11,15 +11,19 @@
 		AE30E6552751BD4C001CF86C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE30E6542751BD4C001CF86C /* ViewController.swift */; };
 		AE30E6572751BD4D001CF86C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE30E6562751BD4D001CF86C /* Assets.xcassets */; };
 		AE30E65A2751BD4D001CF86C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE30E6582751BD4D001CF86C /* Main.storyboard */; };
+		AE30E6672751CE4B001CF86C /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = AE30E6652751CD0E001CF86C /* index.html */; };
+		AE30E66927521631001CF86C /* example.plist in Resources */ = {isa = PBXBuildFile; fileRef = AE30E66827521631001CF86C /* example.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AE30E64F2751BD4C001CF86C /* unitefree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = unitefree.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE30E64F2751BD4C001CF86C /* browserbuilder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = browserbuilder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE30E6522751BD4C001CF86C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AE30E6542751BD4C001CF86C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AE30E6562751BD4D001CF86C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE30E6592751BD4D001CF86C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AE30E65B2751BD4D001CF86C /* unitefree.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = unitefree.entitlements; sourceTree = "<group>"; };
+		AE30E65B2751BD4D001CF86C /* browserbuilder.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = browserbuilder.entitlements; sourceTree = "<group>"; };
+		AE30E6652751CD0E001CF86C /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		AE30E66827521631001CF86C /* example.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = example.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,7 +40,9 @@
 		AE30E6462751BD4C001CF86C = {
 			isa = PBXGroup;
 			children = (
-				AE30E6512751BD4C001CF86C /* unitefree */,
+				AE30E66827521631001CF86C /* example.plist */,
+				AE30E6652751CD0E001CF86C /* index.html */,
+				AE30E6512751BD4C001CF86C /* browserbuilder */,
 				AE30E6502751BD4C001CF86C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,29 +50,29 @@
 		AE30E6502751BD4C001CF86C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AE30E64F2751BD4C001CF86C /* unitefree.app */,
+				AE30E64F2751BD4C001CF86C /* browserbuilder.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AE30E6512751BD4C001CF86C /* unitefree */ = {
+		AE30E6512751BD4C001CF86C /* browserbuilder */ = {
 			isa = PBXGroup;
 			children = (
 				AE30E6522751BD4C001CF86C /* AppDelegate.swift */,
 				AE30E6542751BD4C001CF86C /* ViewController.swift */,
 				AE30E6562751BD4D001CF86C /* Assets.xcassets */,
 				AE30E6582751BD4D001CF86C /* Main.storyboard */,
-				AE30E65B2751BD4D001CF86C /* unitefree.entitlements */,
+				AE30E65B2751BD4D001CF86C /* browserbuilder.entitlements */,
 			);
-			path = unitefree;
+			path = browserbuilder;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AE30E64E2751BD4C001CF86C /* unitefree */ = {
+		AE30E64E2751BD4C001CF86C /* browserbuilder */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AE30E65E2751BD4D001CF86C /* Build configuration list for PBXNativeTarget "unitefree" */;
+			buildConfigurationList = AE30E65E2751BD4D001CF86C /* Build configuration list for PBXNativeTarget "browserbuilder" */;
 			buildPhases = (
 				AE30E64B2751BD4C001CF86C /* Sources */,
 				AE30E64C2751BD4C001CF86C /* Frameworks */,
@@ -76,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = unitefree;
+			name = browserbuilder;
 			productName = unitefree;
-			productReference = AE30E64F2751BD4C001CF86C /* unitefree.app */;
+			productReference = AE30E64F2751BD4C001CF86C /* browserbuilder.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -96,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = AE30E64A2751BD4C001CF86C /* Build configuration list for PBXProject "unitefree" */;
+			buildConfigurationList = AE30E64A2751BD4C001CF86C /* Build configuration list for PBXProject "browserbuilder" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -109,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AE30E64E2751BD4C001CF86C /* unitefree */,
+				AE30E64E2751BD4C001CF86C /* browserbuilder */,
 			);
 		};
 /* End PBXProject section */
@@ -120,7 +126,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE30E6572751BD4D001CF86C /* Assets.xcassets in Resources */,
+				AE30E6672751CE4B001CF86C /* index.html in Resources */,
 				AE30E65A2751BD4D001CF86C /* Main.storyboard in Resources */,
+				AE30E66927521631001CF86C /* example.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,7 +278,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = unitefree/unitefree.entitlements;
+				CODE_SIGN_ENTITLEMENTS = browserbuilder/browserbuilder.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -297,7 +305,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = unitefree/unitefree.entitlements;
+				CODE_SIGN_ENTITLEMENTS = browserbuilder/browserbuilder.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -322,7 +330,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AE30E64A2751BD4C001CF86C /* Build configuration list for PBXProject "unitefree" */ = {
+		AE30E64A2751BD4C001CF86C /* Build configuration list for PBXProject "browserbuilder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AE30E65C2751BD4D001CF86C /* Debug */,
@@ -331,7 +339,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AE30E65E2751BD4D001CF86C /* Build configuration list for PBXNativeTarget "unitefree" */ = {
+		AE30E65E2751BD4D001CF86C /* Build configuration list for PBXNativeTarget "browserbuilder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AE30E65F2751BD4D001CF86C /* Debug */,
